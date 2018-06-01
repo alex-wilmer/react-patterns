@@ -37,3 +37,25 @@ npm start
 This will start a dev server that hosts a web page (probably on `http://localhost:3000`) that looks something like this:
 
 ![cra](https://i.imgur.com/Vz81WKC.png)
+
+That's great, but we're going to make our own app. **Nuke the `src` folder's contents!**
+
+```
+rm -rf src/*
+```
+
+Your running web page should be borked now, with a similar error:
+
+![borked](https://i.imgur.com/agZl7d6.png)
+
+#### Step 2: Dynamic Index
+
+At some point in the future we will have "an app", that "does a thing". Until then, we can take advantage of NodeJS's ability to load JavaScript files at runtime, paired with CRA's webpack config to develop whatever we want. Once we have something worth deploying we can point or build script to the appropriate folder.
+
+Let's start by reviving our index file:
+
+```
+touch src/index.js
+```
+
+This _should_ have cleared our above error and left us with a totally empty webpage.
