@@ -18,9 +18,17 @@ As of May.31 / 2018, `create-react-app` is version `1.5.2`. You can use `npm vie
 ```
 # note: npx, not npm.
 # If this command doesn't work you need to update your version of npm
-npx create-react-app ui && cd ui
+npx create-react-app ui
 ```
 
-Make sure everything was installed correctly. Running `npm start` or `yarn start` should spin up a dev server that hosts a web page like that looks something like this:
+Make sure everything installed correctly:
+
+```
+cd ui
+npm start
+# or yarn start.. your terminal should let you know what it used to install:
+```
+
+That will start a dev server that hosts a web page that like that looks something like this:
 
 ![cra](https://i.imgur.com/Vz81WKC.png)
