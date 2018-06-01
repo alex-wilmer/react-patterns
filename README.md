@@ -26,9 +26,9 @@ Make sure everything installed correctly:
 ```
 cd ui
 npm start
-# or yarn start.. your terminal should let you know what it used to install:
+# or yarn start.. your terminal should let you know what it used to install
 ```
 
-That will start a dev server that hosts a web page that like that looks something like this:
+This will start a dev server that hosts a web page (probably on `http://localhost:3000`) that looks something like this:
 
 ![cra](https://i.imgur.com/Vz81WKC.png)
