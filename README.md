@@ -4,6 +4,7 @@
 
 * [Step 0: Fork This Repository](#step-0-fork-this-repository)
 * [Step 1: Use `create-react-app` to scaffold our UI](#step-1-use-create-react-app-to-scaffold-our-ui)
+* [Step 2: Code Splitting](#step-2-code-splitting)
 
 #### Step 0: Fork This Repository
 
@@ -48,9 +49,9 @@ Your running web page should be borked now, with a similar error:
 
 ![borked](https://i.imgur.com/agZl7d6.png)
 
-#### Step 2: Dynamic Index
+#### Step 2: Code Splitting
 
-At some point in the future we will have "an app", that "does a thing". Until then, we can take advantage of NodeJS's ability to load JavaScript files at runtime, paired with CRA's webpack config to develop whatever we want. Once we have something worth deploying we can point or build script to the appropriate folder.
+At some point in the future we will have "an app", that "does a thing". Until then, we can take advantage of NodeJS's ability to load JavaScript files at runtime, paired with CRA's webpack config to develop whatever we want. Once we have something worth deploying we can point our build script to the appropriate folder.
 
 Let's start by reviving our index file:
 
