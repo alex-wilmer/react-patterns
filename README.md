@@ -1,5 +1,10 @@
 ## Welcome to React App Patterns class!
 
+### Table of Contents
+
+* [Step 0: Fork This Repository](#step-0-fork-this-repository)
+* [Step 1: Use `create-react-app` to scaffold our UI](#step-1-use-create-react-app-to-scaffold-our-ui)
+
 #### Step 0: Fork This Repository
 
 When the photocopy is finished, clone it to your desktop and `cd` into it:
